@@ -1,0 +1,9 @@
+lang :  lex bankard.l
+	yacc -d bankard.y
+	gcc lex.yy.c y.tab.c -o bankard
+
+run : bankard
+	./bankard
+
+remove : 
+	rm -rf lex.yy.c y.tab.c y.tab.h bankard
