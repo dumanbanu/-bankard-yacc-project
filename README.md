@@ -31,7 +31,7 @@ For the booleans their first letter must be uppercase and the rest is lowercase.
 => Has while,do...
 
 
-=> You can run your program by running the makefile and giving it to krlang as input:
+=> You can run your program by running the makefile and giving it to bankard as input:
 
 
      ./bankard < example.kb
